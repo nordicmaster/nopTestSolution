@@ -1,0 +1,11 @@
+﻿{
+  "Group": "Widgets",
+  "FriendlyName": "Test Widget",
+  "SystemName": "Widgets.TestWidget",
+  "Version": "1.31",
+  "SupportedVersions": [ "4.20" ],
+  "Author": "nopCommerce team",
+  "DisplayOrder": 1,
+  "FileName": "Nop.Plugin.Widgets.TestWidget.dll",
+  "Description": "This plugin displays text about discounts"
+}
