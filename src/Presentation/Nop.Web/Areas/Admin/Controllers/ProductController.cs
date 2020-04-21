@@ -154,10 +154,6 @@ namespace Nop.Web.Areas.Admin.Controllers
                     localized.Name,
                     localized.LanguageId);
                 _localizedEntityService.SaveLocalizedValue(product,
-                    x => x.Author,
-                    localized.Author,
-                    localized.LanguageId);
-                _localizedEntityService.SaveLocalizedValue(product,
                     x => x.ShortDescription,
                     localized.ShortDescription,
                     localized.LanguageId);

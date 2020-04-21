@@ -43,7 +43,7 @@
             var ratingPercent = 0;
             if (Model.ReviewOverviewModel.TotalReviews != 0)
             {
-                ratingPercent = ((Model.ReviewOverviewModel.RatingSum * 100) / Model.ReviewOverviewModel.TotalReviews) / 5;
+                ratingPercent = ((Model.ReviewOverviewModel.RatingSum*100)/Model.ReviewOverviewModel.TotalReviews)/5;
             }
             <div class="product-rating-box" title="@string.Format(T("Reviews.TotalReviews").Text, Model.ReviewOverviewModel.TotalReviews)">
                 <div class="rating">
@@ -52,9 +52,6 @@
                 </div>
             </div>
         }
-        <div class="author">
-            @Html.Raw(Model.Author)
-        </div>
         <div class="description">
             @Html.Raw(Model.ShortDescription)
         </div>

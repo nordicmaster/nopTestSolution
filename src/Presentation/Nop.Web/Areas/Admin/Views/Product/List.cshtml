@@ -240,11 +240,6 @@
                                     Title = T("Admin.Catalog.Products.Fields.Name").Text,
                                     Width = "300"
                                 },
-                                new ColumnProperty(nameof(ProductModel.Author))
-                                {
-                                    Title = T("Admin.Catalog.Products.Fields.Author").Text,
-                                    Width = "200"
-                                },
                                 new ColumnProperty(nameof(ProductModel.Sku))
                                 {
                                     Title = T("Admin.Catalog.Products.Fields.Sku").Text,
@@ -253,7 +248,7 @@
                                 new ColumnProperty(nameof(ProductModel.Price))
                                 {
                                     Title = T("Admin.Catalog.Products.Fields.Price").Text,
-                                    Width = "100",
+                                    Width = "150",
                                     Render = new RenderCustom("renderColumnPrice")
                                 },
                                 new ColumnProperty(nameof(ProductModel.StockQuantityStr))
